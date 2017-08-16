@@ -9,9 +9,6 @@ Algoritmo Ejercicio2
 	Si resp = "suma" Entonces
 		Escribir num1+num2
 		
-	SiNo
-		Escribir "Vuelve a intentarlo."
-		
 	Fin Si
 	
 	Si resp = "resta" Entonces
