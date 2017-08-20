@@ -1,20 +1,27 @@
 Algoritmo ejercicio4
 	
-	Dimension numbers(3)
-	
 	Escribir "Escoja el primer número"
-	Leer numbers[0]
+	Leer numero1
 	Escribir "Escoja el segundo número"
-	Leer numbers[1]
+	Leer numero2
 	Escribir "Escoja el tercer número"
-	Leer numbers[2]
+	Leer numero3
 	
-	num_mayor=numbers[0]
+	Si numero1 = numero2 y numero1 = numero3 y numero2 = numero3 Entonces
+		Escribir "Los números son iguales"
+	Fin Si
 	
-	Si num_mayor
+	Si numero1 > numero2 y numero1 > numero3 Entonces
+		Escribir "El número mayor es " + numero1
+	FinSi
 	
+	Si numero2 > numero1 y numero2 > numero3 Entonces
+		Escribir "El número mayor es " + numero2
+	FinSi
 	
-	
+	Si numero3 > numero1 y numero3 > numero2 Entonces
+		Escribir "El número mayor es " + numero3
+	FinSi
 	
 	
 	
